@@ -32,7 +32,7 @@ body .new {
   font-weight: 500;
 }
 
-h4{
+h4 {
   text-transform: capitalize;
 }
 .card {
@@ -41,6 +41,7 @@ h4{
   background: linear-gradient(to bottom right, #7d7463, #a8a196);
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  animation: anni 1.5s linear 0s alternate;
 }
 
 .card .profile {
@@ -74,7 +75,7 @@ h4{
   padding-top: 1em;
 }
 
-.card .place{
+.card .place {
   padding: 0.7em;
 }
 
@@ -84,7 +85,7 @@ h4{
   padding-left: 1.8em;
 }
 
-.card .footer{
+.card .footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -114,5 +115,24 @@ h4{
   }
   .card {
     height: 14rem;
+  }
+}
+
+@keyframes anni {
+  0% {
+      translate: 0 50vh;
+      transform: rotate(90deg);
+  }
+  50%{
+    translate: 0 25vh;
+    transform: rotate(45%);
+  }
+  95%{
+    translate: -3vh -2vh;
+    transform: rotate(-10%);
+  }
+  100% {
+      translate: 0 0;
+      transform: rotate(0deg);
   }
 }
