@@ -125,11 +125,11 @@ h4 {
   }
   50%{
     translate: 0 25vh;
-    transform: rotate(45%);
+    transform: rotate(45deg);
   }
   95%{
     translate: -3vh -2vh;
-    transform: rotate(-10%);
+    transform: rotate(-10deg);
   }
   100% {
       translate: 0 0;
