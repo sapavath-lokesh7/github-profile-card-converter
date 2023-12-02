@@ -5,12 +5,12 @@
   margin: 0;
   box-sizing: border-box;
   list-style: none;
-  overflow-x: hidden;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
 
 body {
+  overflow-x: hidden;
   background-color: #212121;
   color: #f4e0b9;
   padding: 1%;
